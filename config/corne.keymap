@@ -45,9 +45,9 @@
          ,-----------------------------------------+            +-----------------------------------------.
          |PRTSCW|PRTSCM|      |      |      |      |            | Home |  UP  | End  |      | Mute | Bksp |
          |------+------+------+------+------+------+            +------+------+------+------+------+------|
-         |      |      |      |      |      |      |            | LEFT | DOWN |RIGHT |      | Vol+ |      |
+         |      |      |      |      |      |      |            | LEFT | DOWN |RIGHT |      | Vol+ |  F15 |
          |------+------+------+------+------+------+            +------+------+------+------+------+------|
-         |LShift|      |      |      |      |      |            |VSPREV| Play | Prev | Next | Vol- |      |
+         |LShift|      |      |      |      |      |            |VSPREV| Play | Prev | Next | Vol- |  F14 |
          '------+------+------+------+------+------+            +------+------+------+------+------+------'
                               | LAlt |      |LCtrl |            | XXXX |      |      |
                               '--------------------'            '--------------------'*/
@@ -96,8 +96,8 @@
         spacefn {
             bindings = <
 &kp LG(LS(S))  &kp RG(RS(NUMBER_4))  &none  &none     &none   &none        &kp HOME       &kp UP            &kp END     &none       &kp C_MUTE    &kp BSPC
-&none          &none                 &none  &none     &none   &none        &kp LEFT       &kp DOWN          &kp RIGHT   &none       &kp C_VOL_UP  &none
-&kp LSHFT      &none                 &none  &none     &none   &none        &kp LC(MINUS)  &kp C_PLAY_PAUSE  &kp C_PREV  &kp C_NEXT  &kp C_VOL_DN  &none
+&none          &none                 &none  &none     &none   &none        &kp LEFT       &kp DOWN          &kp RIGHT   &none       &kp C_VOL_UP  &kp F15
+&kp LSHFT      &none                 &none  &none     &none   &none        &kp LC(MINUS)  &kp C_PLAY_PAUSE  &kp C_PREV  &kp C_NEXT  &kp C_VOL_DN  &kp F14
                                             &kp LALT  &kp N0  &kp LCTRL    &none          &none             &none
             >;
         };
